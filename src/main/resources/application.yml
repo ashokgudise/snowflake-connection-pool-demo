@@ -1,0 +1,26 @@
+app:
+  snowflake:
+    access-token-uri: xxx
+    oauth-config:
+      client-id: xxx
+      grant-type: password
+      scope: SESSION:ROLE-ANY
+
+    authentication: oauth
+    role: xxx
+    database: xxx
+    schema: xxx
+    warehouse: xxx
+    url: xxx
+    query: xxx
+
+    hikari:
+      connection-timeout: 1000
+      idleTimeout: 600000
+      maxLifetime: 1800000
+      maximumPoolSize: 10
+      poolName: your-snowflake-connection-pool
+
+  proxy:
+    host: xxx
+    port: xxx

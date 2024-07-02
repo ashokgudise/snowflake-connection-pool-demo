@@ -1,0 +1,9 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.ehcache.org/ehcache
+                    http://www.ehcache.org/xml/ehcache-3.10.xsd">
+    <cache alias="CACHE_TOKEN">
+        <expiry>
+            <timeToIdle unit="hours">4</timeToIdle>
+        </expiry>
+        <heap maxEntriesLocalHeap="100" /> </cache>
+</ehcache>
